@@ -2,15 +2,16 @@
 
 # 1. Overview
 1. This repo is forked from the main open-power snap repo
-2. The new HLS PCA action type is part of the HandleActionIp branch which has fixes for issues discovered by us
-3. The action HW has been tested using the ADKU3 card
-4. The action HW has been timing closed at 4 ns
+2. hls_pca is a fully functional independent SNAP action type
+3. The new HLS PCA action type is part of the HandleActionIp branch which has fixes for issues discovered by us
+4. The action HW has been timing closed at 4ns and tested using the ADKU3 card
+5. SNAP version - based off of the HandleIpAction branch in the SNAP repo
+6. Vivado version - 2017.4
+
 # 2. Deliverables
-1. actions/hls_pca and all associated changes to SNAP resources - HW implementation of the PCA algorithm
+1. actions/hls_pca/hw - HW implementation of the PCA algorithm                  
 2. actions/hls_pca/hw/hls_svd_mod.h - a modified version of the Vivado HLS SVD library functionality
-3. csim tested code for SW implementation of PCA algorithm
-4. Files/Matrices used for performance analysis
-5. FPGA image binaries - Image built using tested and timed HW
+3. FPGA image binaries - Image built using tested and timed HW
 
 
 # SNAP Framework Hardware and Software
