@@ -8,12 +8,6 @@
 5. SNAP version - based off of the HandleIpAction branch in the SNAP repo
 6. Vivado version - 2017.4
 
-# 2. Deliverables
-1. actions/hls_pca/hw - HW implementation of the PCA algorithm                  
-2. actions/hls_pca/hw/hls_svd_mod.h - a modified version of the Vivado HLS SVD library functionality
-3. FPGA image binaries - Image built using tested and timed HW
-
-
 # SNAP Framework Hardware and Software
 
 # 1. Overview
